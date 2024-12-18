@@ -66,10 +66,13 @@ Rodar com Docker:
 
 docker-compose up
 
-![Dashboard](public/images/dashboard.png)
-![Página Inicial](public/images/inicial.png)
-![Página do Projeto](public/images/projeto.png)
-![Página da Viagem](public/images/viagem.png)
+![Dashboard](https://raw.githubusercontent.com/<usuario>/<repositorio>/main/public/dashboard.png)
+![Página Inicial](https://raw.githubusercontent.com/<usuario>/<repositorio>/main/public/inicial.png)
+![Página do Projeto](https://raw.githubusercontent.com/<usuario>/<repositorio>/main/public/projeto.png)
+![Página da Viagem](https://raw.githubusercontent.com/<usuario>/<repositorio>/main/public/viagem.png)
+
+
+
 
 🔗 APIs Utilizadas
 Firebase
