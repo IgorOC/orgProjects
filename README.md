@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Projeto de Gestão de Projetos e Tarefas 🚀
 
-## Getting Started
+Um aplicativo moderno criado para gerenciar **projetos** e **tarefas**, com recursos como CRUD, acompanhamento de progresso, localização de destinos e um dashboard intuitivo.
 
-First, run the development server:
+---
 
-```bash
+## 📋 **Funcionalidades**
+
+1. **Gerenciamento de Projetos e Tarefas**
+   - Criação, leitura, atualização e exclusão de tarefas (CRUD).
+   - Acompanhamento do progresso dos projetos.
+
+2. **Viagens e Localização**
+   - Adicione destinos e busque cidades específicas utilizando a API da **OpenCage**.
+
+3. **Perfil de Usuário**
+   - Troque o nome do usuário.
+   - Adicione uma **imagem** ao perfil usando **Cloudinary**.
+   - Atualize a senha com segurança.
+
+4. **Dashboard Prático**
+   - Visualize projetos e tarefas em um layout limpo e funcional.
+
+---
+
+## 🛠 **Tecnologias Usadas**
+
+- **Frontend**: Next.js, TypeScript, Timeline CSS  
+- **Backend**: Node.js  
+- **Banco de Dados e Autenticação**: Firebase  
+- **APIs**: OpenCage (localização de países/cidades)  
+- **Armazenamento de Imagens**: Cloudinary  
+- **Testes**: Jest  
+- **Containerização**: Docker  
+
+---
+
+## 🚀 **Como Executar o Projeto**
+
+1. **Clone o Repositório**:
+   ```bash
+   git clone https://github.com/usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+
+Instale as Dependências:
+
+npm install
+
+Configure as Variáveis de Ambiente: Crie um arquivo .env na raiz do projeto e adicione as seguintes chaves:
+
+plaintext
+Copiar código
+FIREBASE_API_KEY=xxxxxxxx
+CLOUDINARY_URL=xxxxxxxx
+OPENCAGE_API_KEY=xxxxxxxx
+
+Execute o Projeto em Desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Testar o Projeto:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+npm run test
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Rodar com Docker:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+docker-compose up
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Dashboard](public/images/dashboard.png)
+![Página Inicial](public/images/inicial.png)
+![Página do Projeto](public/images/projeto.png)
+![Página da Viagem](public/images/viagem.png)
 
-## Learn More
+🔗 APIs Utilizadas
+Firebase
+OpenCage
+Cloudinary
 
-To learn more about Next.js, take a look at the following resources:
+🎯 Status do Projeto
+✅ Concluído
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
