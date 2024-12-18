@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
@@ -29,8 +27,15 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# env files (can opt-in for committing if needed)
+# env files (mantém os arquivos seguros)
 .env*
+!.env.example
+
+# sensitive project files
+lib/firebase.ts
+lib/api.ts
+lib/auth.ts
+docker-compose.yml
 
 # vercel
 .vercel
