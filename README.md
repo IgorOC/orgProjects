@@ -66,10 +66,17 @@ Rodar com Docker:
 
 docker-compose up
 
-<img src="./public/dashboard.png" alt="Dashboard">
-<img src="./public/viagem.png" alt="Página da Viagem">
-<img src="./public/projeto.png" alt="Página do Projeto">
-<img src="./public/inicial.png" alt="Página Inicial">
+### Dashboard
+![Dashboard](public/dashboard.png)
+
+### Página da Viagem
+![Página da Viagem](public/viagem.png)
+
+### Página do Projeto
+![Página do Projeto](public/projeto.png)
+
+### Página Inicial
+![Página Inicial](public/inicial.png)
 
 🔗 APIs Utilizadas
 Firebase
